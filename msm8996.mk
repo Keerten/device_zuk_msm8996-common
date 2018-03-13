@@ -167,11 +167,6 @@ PRODUCT_COPY_FILES += \
 # HWUI overrides
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
 
-# Graphics
-PRODUCT_PACKAGES += \
-    libsdm-disp-apis
-
-
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common
