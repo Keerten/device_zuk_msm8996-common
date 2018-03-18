@@ -276,9 +276,9 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     netutils-wrapper-1.0
 
-# Offmode Charging
+# Neural Networks
 PRODUCT_PACKAGES += \
-    charger_res_images
+    android.hardware.neuralnetworks@1.0-service-hvx
 
 # OMX
 PRODUCT_PACKAGES += \
